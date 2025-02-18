@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1b1c30;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            text-align: center;
+            color: #fff;
+        }
+        .login-container img {
+            width: 100px;
+            height: auto;
+        }
+        .login-container h1 {
+            color: #fff;
+        }
+        .login-container form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .login-container input {
+            background-color: #2a2b38;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            max-width: 300px;
+        }
+        .login-container input::placeholder {
+            color: #8d8e99;
+        }
+        .login-container button {
+            background-color: #77c97b;
+            color: #2a2b38;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .login-container p {
+            color: #fff;
+        }
+        .login-container p a {
+            color: aquamarine;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="../logo.png" alt="Logo">
+        <h1>LOGIN</h1>
+        <form>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Senha">
+            <p>Ainda não tem uma conta? <a href="#">Crie uma.</a></p>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
